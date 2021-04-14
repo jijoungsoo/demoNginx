@@ -1,6 +1,5 @@
 FROM nginx:latest
-#COPY ./my-httpd.conf /usr/local/apache2/conf/httpd.conf
-
+COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
 
 
 EXPOSE 80
