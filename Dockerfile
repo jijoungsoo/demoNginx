@@ -1,4 +1,4 @@
-FROM httpd:2.4
+FROM nginx:latest
 COPY ./my-httpd.conf /usr/local/apache2/conf/httpd.conf
 
 
